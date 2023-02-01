@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+table{
+    margin:20px
+}
+.bootstrap-form form{
+    margin:17px;
+}
+.col-auto{
+    margin: 12px;
+    padding: 12px;
+}
+.col-auto button{
+    padding: 9px;
+    width: 150px;
+}
+.table-responsive{
+    overflow-x: hidden !important;
+}
+legend{
+    font-family: 'Mulish', sans-serif;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu h1{
+    font-size: 21px;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    left: 10px;
+    position: absolute;
+}
+@media (max-width:844px){
+    #menu{
+        display: block;
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+    }
+    #navbar{
+        display:none;
+    }
+    body{
+        width: 239px;
+    position: absolute;
+    }
+    #card{
+        
+        position: relative;
+    top: -43px;
+    left: -34px;
+    }
+    #row{
+        flex-direction: column;
+    }
+    #col{
+        padding: 9px;
+    }
+    #table{
+        overflow-x: auto;
+    }
+    #card-tittle{
+        width:16rem !important;
+    }
+}
+@media (max-width:1400px){
+  .d-flex{
+        position: relative !important;
+        left: 440px !important;;
+    }
+}
+/* @media (max-width:2433px){
+    .d-flex{
+        position:relative !important;
+        left:1751px !important;
+    }
+} */
